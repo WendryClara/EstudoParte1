@@ -6,6 +6,7 @@ git clone <link do repositório> - Clona o repositório.
 
 -- Comandos Dentro da Pasta do Repositório
 
+git branch - Visualiza as branchs
 git branch <nome da branch> - Cria uma nova branch.
 git checkout <Nome da branch> - Muda para outra branch.
 git config --global user.name "seu nome" - Configura seu nome.
