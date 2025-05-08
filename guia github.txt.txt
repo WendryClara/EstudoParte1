@@ -1,0 +1,17 @@
+-- Comandos na Aréa de Trabalho --
+
+git init - Inicializa o repositório.
+git clone <link do repositório> - Clona o repositório. 
+
+
+-- Comandos Dentro da Pasta do Repositório
+
+git branch <nome da branch> - Cria uma nova branch.
+git checkout <Nome da branch> - Muda para outra branch.
+git config --global user.name "seu nome" - Configura seu nome.
+git config --global user.email "seu email" - Configura seu email.
+git status - Visualiza o status dos arquivos.
+git add . - Adiciona os arquivos para commit.
+git commit -m "descrição do commit" - Realiza o commit.
+git push origin <nome da branch> - Envia os arquivos para a branch de destino.
+
