@@ -4,7 +4,7 @@ git init - Inicializa o repositório.
 git clone <link do repositório> - Clona o repositório. 
 
 
--- Comandos Dentro da Pasta do Repositório
+-- Comandos Dentro da Pasta do Repositório 
 
 git branch - Visualiza as branchs
 git branch <nome da branch> - Cria uma nova branch.
@@ -15,4 +15,15 @@ git status - Visualiza o status dos arquivos.
 git add . - Adiciona os arquivos para commit.
 git commit -m "descrição do commit" - Realiza o commit.
 git push origin <nome da branch> - Envia os arquivos para a branch de destino.
+
+-- Fluxo de Branchs (merges) --
+
+main/master - Branch principal/primária
+develop - Branch secundária
+funcionalidade - Branch da funcionalidade que está sendo desenvolvida
+hotfix/issue - Branch para resolução de bugs (situacional)
+
+funcionalidade -> develop -> main 
+
+
 
